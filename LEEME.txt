@@ -1,0 +1,26 @@
+CÓMO ACTUALIZAR LAS IMÁGENES DE LA WEB ¡SÍ, QUIERO!
+=====================================================
+
+No hace falta tocar el index.html. Solo agregás o reemplazás archivos en estas carpetas
+y, al subirlos a GitHub, la web se actualiza sola.
+
+fotos/
+  portada.jpg   -> imagen grande de la portada
+  cierre.jpg    -> foto del final, la del efecto parallax
+  papel.jpg     -> textura de fondo
+
+modelos/classic/   modelos/relax/   modelos/funny/   modelos/memories/
+  portada.jpg   -> captura de la pantalla principal (se ve mientras carga el video)
+  video.mp4     -> video del celular para la tarjeta del modelo
+  ejemplos/1.jpg, 2.jpg, 3.jpg...  -> catálogo "Ver ejemplos"
+
+imprimibles/
+  1.jpg, 2.jpg, 3.jpg...  -> fotos que pasan solas en la sección de imprimibles
+
+REGLAS IMPORTANTES
+- Nombres en minúscula y exactamente como arriba.
+- Numerá sin saltear: 1, 2, 3... (si falta el 3, no se ve el 4).
+- Formatos que sirven: .jpg, .jpeg, .png o .webp. Los videos, en .mp4.
+- Si un modelo no tiene portada ni video, se ve el dibujo de ejemplo.
+- Tratá que cada foto pese menos de 500 KB y cada video menos de 3 MB
+  para que la web cargue rápido. Podés achicarlas en tinypng.com.
